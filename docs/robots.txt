@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://placeholder-standard.github.io/plc/sitemap.xml
