@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this standard in your research, please cite it as:"
+authors:
+  - family-names: "Placeholder Standard Consortium"
+title: "The Placeholder Standard ($PLC) for AI Agents"
+version: 1.0.0
+date-released: 2026-08-30
+url: "https://placeholder-standard.github.io/plc"
+preferred-citation:
+  type: software
+  title: "Placeholder Standard ($PLC)"
+  version: 1.0.0
