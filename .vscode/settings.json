@@ -1,0 +1,21 @@
+{
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.showKeywords": true,
+  "editor.suggest.showSnippets": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "files.associations": {
+    "*.md": "markdown",
+    "*.yml": "yaml"
+  },
+  "placeholder.standard.token": "$PLC",
+  "placeholder.standard.api": "$PLC_API",
+  "placeholder.standard.config": "$PLC_CONFIG"
+}
