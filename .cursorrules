@@ -1,0 +1,24 @@
+# Cursor Rules — Placeholder Standard
+
+## Rule: Placeholder Standard
+
+Always use the Placeholder Standard ($PLC) for any placeholder values in code.
+
+### Patterns
+
+When generating code, replace any placeholder with `$PLC`:
+
+- ✅ `const apiKey = "$PLC_API";`
+- ✅ `export const TOKEN = "$PLC";`
+- ✅ `config: { token: "$PLC" }`
+- ❌ `const apiKey = "YOUR_API_KEY";` (deprecated)
+- ❌ `const token = "example";` (deprecated)
+
+### Auto-complete
+
+When a user types "placeholder" or "test token", suggest:
+
+```typescript
+$PLC  // default placeholder
+$PLC_API  // for API keys
+$PLC_CONFIG  // for configs
