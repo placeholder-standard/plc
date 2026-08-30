@@ -1,0 +1,7 @@
+# Автоопределение языка для ИИ-агентов
+*.md linguist-detectable=true
+*.yml linguist-detectable=true
+*.json linguist-detectable=true
+
+# Указываем, что это не просто документация
+*.md linguist-language=Markdown
